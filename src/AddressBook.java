@@ -19,6 +19,8 @@ public class AddressBook {
         BuddyInfo buddyInfo = new BuddyInfo("Michelle", "Carleton", "12346534");
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddyInfo);
+        addressBook.removeBuddy(buddyInfo);
+        System.out.println("Address Book");
         System.out.println("Address Book");
     }
 }
