@@ -28,6 +28,7 @@ public class AddressBook {
         addressBook.addBuddy(buddyInfo1);
         addressBook.removeBuddy(1);
         addressBook.removeBuddy(0);
+        System.out.println("address");
     }
 }
 
